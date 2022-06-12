@@ -13,7 +13,6 @@ func (value Integer) PrintInt() {
 	fmt.Println(value)
 }
 
-// Head 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> nil Tail
 func CreateLinkedList(numbers []int) *ListNode {
 	var listNode = new(ListNode)
 	listNode = nil

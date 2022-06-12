@@ -19,7 +19,3 @@ type Animal interface {
 	MakeSound()
 	Walk()
 }
-
-func WhatsMyType(view interface{}) {
-	fmt.Println("%T", view)
-}
